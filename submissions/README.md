@@ -24,3 +24,9 @@ This folder contains the values needed to finish each public-directory submissio
 - Release commit: `97192fab47aa43a69ab0345b68e7881b011a5aa9`
 - Hosted plugin path: `plugins/inwise-cloud`
 - Desktop plugin path: `plugins/inwise-desktop`
+
+Immutable release uploads:
+
+- https://github.com/Wise-Ai-Org/inwise-agent-plugin/releases/download/v0.1.0/inwise-cloud-plugin-v0.1.0.zip
+- https://github.com/Wise-Ai-Org/inwise-agent-plugin/releases/download/v0.1.0/inwise-desktop-plugin-v0.1.0.zip
+- https://github.com/Wise-Ai-Org/inwise-agent-plugin/releases/download/v0.1.0/inwise-workspace-memory-skill-v0.1.0.zip
