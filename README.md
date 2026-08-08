@@ -43,4 +43,6 @@ Use the repository URL in the client's plugin or marketplace installation flow. 
 
 [`SUBMISSION.md`](SUBMISSION.md) contains the reusable listing copy, tool annotations, prompts, review tests, and final human checks for public marketplace review.
 
+[`submissions/README.md`](submissions/README.md) is the final-action handoff for each directory, registry, and review workflow.
+
 Canonical repository: https://github.com/Wise-Ai-Org/inwise-agent-plugin
