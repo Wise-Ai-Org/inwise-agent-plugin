@@ -1,0 +1,10 @@
+{
+  "name": "inwise-desktop",
+  "version": "0.1.0",
+  "description": "Use local Inwise meeting memory to prepare meetings, trace decisions, and follow through on commitments.",
+  "mcpServers": {
+    "inwise": {
+      "httpUrl": "http://127.0.0.1:43117/mcp"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "inwise-desktop",
+  "version": "0.1.0",
+  "description": "Use local Inwise meeting memory to prepare meetings, trace decisions, and follow through on commitments.",
+  "author": {
+    "name": "Wise.ai",
+    "email": "admin@inwise.ai",
+    "url": "https://inwise.ai"
+  },
+  "homepage": "https://inwise.ai/desktop",
+  "repository": "https://github.com/Wise-Ai-Org/inwise-agent-plugin",
+  "license": "MIT",
+  "keywords": ["meetings", "meeting-memory", "briefings", "action-items", "local-first"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Inwise Desktop",
+    "shortDescription": "Turn local meeting memory into useful context.",
+    "longDescription": "Prepare for meetings, find decisions, review relationships, and follow through on commitments using the meeting memory stored by Inwise Desktop on this computer. Reading is local; optional action writeback is disabled by default and requires explicit approval.",
+    "developerName": "Wise.ai",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://inwise.ai",
+    "privacyPolicyURL": "https://inwise.ai/privacy-policy",
+    "termsOfServiceURL": "https://inwise.ai/terms-of-use",
+    "defaultPrompt": [
+      "Prepare me for my next meeting using Inwise.",
+      "Show my overdue commitments and their source meetings.",
+      "Find the meeting where we decided the launch date."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

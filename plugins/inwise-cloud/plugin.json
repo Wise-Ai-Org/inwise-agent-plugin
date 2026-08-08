@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "inwise-cloud",
+  "version": "0.1.0",
+  "description": "Use source-linked Inwise workspace memory for meetings, people, projects, goals, action items, and briefings.",
+  "author": {
+    "name": "Wise.ai",
+    "email": "admin@inwise.ai",
+    "url": "https://inwise.ai"
+  },
+  "homepage": "https://inwise.ai/agents",
+  "repository": "https://github.com/Wise-Ai-Org/inwise-agent-plugin",
+  "license": "MIT",
+  "keywords": ["meetings", "workspace-memory", "projects", "briefings", "action-items"]
+}

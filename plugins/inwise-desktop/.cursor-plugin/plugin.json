@@ -1,0 +1,16 @@
+{
+  "name": "inwise-desktop",
+  "displayName": "Inwise Desktop",
+  "version": "0.1.0",
+  "description": "Use local Inwise meeting memory to prepare meetings, trace decisions, and follow through on commitments.",
+  "author": {
+    "name": "Wise.ai",
+    "email": "admin@inwise.ai"
+  },
+  "homepage": "https://inwise.ai/desktop",
+  "repository": "https://github.com/Wise-Ai-Org/inwise-agent-plugin",
+  "license": "MIT",
+  "keywords": ["meetings", "meeting-memory", "briefings", "action-items", "local-first"],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}

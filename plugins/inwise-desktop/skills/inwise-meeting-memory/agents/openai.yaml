@@ -1,0 +1,15 @@
+interface:
+  display_name: "Inwise Meeting Memory"
+  short_description: "Prepare and follow through with meeting context"
+  default_prompt: "Use $inwise-meeting-memory to prepare me for my next meeting."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "inwise"
+      description: "Local Inwise Desktop meeting memory"
+      transport: "streamable_http"
+      url: "http://127.0.0.1:43117/mcp"
+
+policy:
+  allow_implicit_invocation: true

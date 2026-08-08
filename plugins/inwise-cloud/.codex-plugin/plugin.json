@@ -1,0 +1,32 @@
+{
+  "name": "inwise-cloud",
+  "version": "0.1.0",
+  "description": "Use source-linked Inwise workspace memory for meetings, people, projects, goals, action items, and briefings.",
+  "author": {
+    "name": "Wise.ai",
+    "email": "admin@inwise.ai",
+    "url": "https://inwise.ai"
+  },
+  "homepage": "https://inwise.ai/agents",
+  "repository": "https://github.com/Wise-Ai-Org/inwise-agent-plugin",
+  "license": "MIT",
+  "keywords": ["meetings", "workspace-memory", "projects", "briefings", "action-items"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Inwise Cloud",
+    "shortDescription": "Retrieve sourced meeting and project context.",
+    "longDescription": "Connect to an authenticated Inwise workspace to retrieve source-linked meeting, people, project, goal, action-item, and briefing context. The hosted tools are read-only and follow the connected user's workspace permissions.",
+    "developerName": "Wise.ai",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "websiteURL": "https://inwise.ai",
+    "privacyPolicyURL": "https://inwise.ai/privacy-policy",
+    "termsOfServiceURL": "https://inwise.ai/terms-of-use",
+    "defaultPrompt": [
+      "Brief me on what changed across my projects this week.",
+      "Prepare me for my next meeting using Inwise context.",
+      "Show overdue commitments and their source meetings."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

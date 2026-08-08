@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "inwise": {
+      "type": "http",
+      "url": "https://inwise-mcp.azurewebsites.net/mcp"
+    }
+  }
+}

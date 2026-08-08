@@ -1,0 +1,10 @@
+{
+  "name": "inwise-cloud",
+  "version": "0.1.0",
+  "description": "Use source-linked Inwise workspace memory for meetings, people, projects, goals, action items, and briefings.",
+  "mcpServers": {
+    "inwise": {
+      "httpUrl": "https://inwise-mcp.azurewebsites.net/mcp"
+    }
+  }
+}

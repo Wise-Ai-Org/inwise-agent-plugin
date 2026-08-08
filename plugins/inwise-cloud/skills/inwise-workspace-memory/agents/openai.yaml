@@ -1,0 +1,15 @@
+interface:
+  display_name: "Inwise Workspace Memory"
+  short_description: "Retrieve sourced meeting and project context"
+  default_prompt: "Use $inwise-workspace-memory to brief me on what changed this week."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "inwise"
+      description: "Authenticated Inwise workspace memory"
+      transport: "streamable_http"
+      url: "https://inwise-mcp.azurewebsites.net/mcp"
+
+policy:
+  allow_implicit_invocation: true

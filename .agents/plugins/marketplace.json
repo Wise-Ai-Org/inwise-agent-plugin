@@ -1,0 +1,32 @@
+{
+  "name": "inwise-agent-plugins",
+  "interface": {
+    "displayName": "Inwise Agent Plugins"
+  },
+  "plugins": [
+    {
+      "name": "inwise-desktop",
+      "source": {
+        "source": "local",
+        "path": "./plugins/inwise-desktop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "inwise-cloud",
+      "source": {
+        "source": "local",
+        "path": "./plugins/inwise-cloud"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

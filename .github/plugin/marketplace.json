@@ -1,0 +1,26 @@
+{
+  "name": "inwise-agent-plugins",
+  "owner": {
+    "name": "Wise.ai",
+    "email": "admin@inwise.ai"
+  },
+  "metadata": {
+    "description": "Inwise meeting and workspace memory for AI agents.",
+    "version": "0.1.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "inwise-cloud",
+      "description": "Retrieve source-linked meetings, people, projects, goals, action items, and briefings from an authenticated Inwise workspace.",
+      "version": "0.1.0",
+      "source": "./plugins/inwise-cloud"
+    },
+    {
+      "name": "inwise-desktop",
+      "description": "Use local Inwise meeting memory to prepare meetings, trace decisions, and follow through on commitments.",
+      "version": "0.1.0",
+      "source": "./plugins/inwise-desktop"
+    }
+  ]
+}
