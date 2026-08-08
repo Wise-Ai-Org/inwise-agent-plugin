@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.Wise-Ai-Org/inwise-cloud",
+  "name": "io.github.wise-ai-org/inwise-cloud",
   "title": "Inwise Cloud",
   "description": "Source-linked meeting and workspace memory for AI assistants.",
   "version": "0.1.0",
